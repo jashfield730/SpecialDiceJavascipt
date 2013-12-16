@@ -1,0 +1,49 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <script src="dice.js"></script>
+    <title></title>
+    <style type="text/css">
+    #cont{width:100%;}
+    #container
+    {
+    positon:absolute;
+    margin:0 auto;   
+    }
+    </style>
+</head>
+<body>
+<script src="dice.js"></script>
+<div id="container">
+<div id="content">
+<h1>John's Dice Roller</h1>
+<table>
+<tr>
+<td><p>Amount of Rolls</p></td>
+<td><input type="text" id = "rolls" name="rolls" value="40" /></td>
+</tr>
+<tr>
+<td><p>Comparison 1</p></td>
+<td><input type="text" id="comp1" name="comp1" value="3" /></td>
+</tr>
+<tr>
+<td><p>Comparison 2</p></td>
+<td><input type="text" id="comp2" name="comp2" value="4" /></td>
+</tr>
+<tr>
+<td><p>Comparison 3</p></td>
+<td><input type="text" id="comp3" name="comp3" value="3" /></td>
+</tr>
+<tr>
+<td><button type="button" onclick="diceroller();">Click me to Calculate</button></td>
+</tr>
+<tr>
+<td><p>Ouput</p></td>
+<td><input type="text" id="output" name="output" value=0 disabled/></td>
+</tr>
+</table>
+</div>
+</div>
+</body>
+</html>
