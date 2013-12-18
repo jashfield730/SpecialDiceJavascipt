@@ -20,6 +20,11 @@
 <h1>John's Dice Roller</h1>
 <table>
 <tr>
+    <th></th>
+    <th>Enter Values</th>
+    <th>Ignore Comparison</th>
+ </tr>
+<tr>
 <td><p>Amount of Rolls</p></td>
 <td><input type="text" id = "rolls" name="rolls" value="40" /></td>
 </tr>
@@ -30,10 +35,12 @@
 <tr>
 <td><p>Comparison 2</p></td>
 <td><input type="text" id="comp2" name="comp2" value="4" /></td>
+<td><input type="checkbox" id="ignore2" name="Ignore2" value=""></td></td>
 </tr>
 <tr>
 <td><p>Comparison 3</p></td>
 <td><input type="text" id="comp3" name="comp3" value="3" /></td>
+<td><input type="checkbox" id="ignore3" name="Ignore3" value=""></td></td>
 </tr>
 </table>
 <button type="button" onclick="diceroller();">Click me to Calculate</button>

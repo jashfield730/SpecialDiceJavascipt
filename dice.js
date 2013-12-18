@@ -2,13 +2,10 @@
 {
 var times = [];
 times[0] = document.getElementById('comp1').value;
-times[1] = document.getElementById('comp2').value;
-if (special1.checked == 1){
-}
-else
-{
-	times[2] = document.getElementById('comp3').value;
-}
+if (ignore2.checked == 1){}
+else{times[1] = document.getElementById('comp2').value;}
+if (ignore3.checked == 1){}
+else{times[2] = document.getElementById('comp3').value;}
 var rolls = document.getElementById('rolls').value;
 //for (var i=0;i<number.length;i++)
 //{ 
